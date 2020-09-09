@@ -80,13 +80,7 @@ public class msal: CAPPlugin {
     
    private func accessTokenToJson(_ accessToken: Any) -> [String: Any?] {
        return [
-           "accessToken": accessToken,
-//           /*declinedPermissions: accessToken.declinedPermissions,*/
-//           "expiresOn": dateToJS(accessToken.expiresOn),
-//           "refreshToken": accessToken.refreshToken,
-//           /*permissions: accessToken.grantedPermissions,*/
-//           "accessTokenType": accessToken.tokenString,
-//           "userId": accessToken.userID
+           "accessToken": accessToken
        ]
    }
 

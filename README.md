@@ -1,3 +1,3 @@
 # msal-capacitor-plugin
 
-NOTE: plugin is still development phase
+NOTE: plugin is still in development phase
